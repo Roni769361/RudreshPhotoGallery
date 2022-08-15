@@ -2,8 +2,27 @@ body{
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+}
+.formsec{
+    width: 60%;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    background-color: none;
+}
+.formsec input{
+    background-color: rgba(173, 173, 173, 0.89);
+}
 
-
+.logingSystem{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    align-content: center;
+    color: rgb(255, 255, 255);
+}
+#HomeText{
+    display: none;
 }
 .TopHeader{
     position: relative;
@@ -36,7 +55,7 @@ body{
     /* background-image: url("HomeSlideImage/pexels-jakub-novacek-924824.jpg"); */
 }
 .contant{
-    padding-left: 15px;
+    padding-left: 0px;
 }
 .headline .logo{
     margin-bottom: 10px;
@@ -92,4 +111,16 @@ body{
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
 
+}
+.icon{
+    position:absolute;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    /* left: 0px; */
+
+    /* bottom: 15 end; */
+    
+    /* position:fixed */
+    /* position-absolute bottom-15 end-0 position-fixed */
 }
