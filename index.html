@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoGallary</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="lightbox.css">
+</head>
+<body>
+    <header id="topHeader" class="TopHeader">
+        <img src="images/2.jpg" alt="">
+        <div id="HomeText" class="WelcomeText text-center align-items-center">
+            <h1>Welcome To my <span class="text-warning">Photo Gallery</span></h1>
+            <button onclick="clickGallery()" class="btn btn-warning btn-outline-success btn-outline-secondary">Click For Gallery</button>
+        </div>
+    </header>
+    <section id="gallary" class="bg-light">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="headline pt-4 d-flex">
+                        <div class="logo">
+                            <img class="img-fluid" src="https://static.vecteezy.com/system/resources/previews/001/198/733/non_2x/camera-png.png" alt="" width="70" height="70">
+                        </div>
+                        <div class="contant d-flex">
+                            <h2>Welcome To Rudresh Photo Gallery</h2>
+                            <!-- <button class="btn btn-outline-success position-absolute top-0 end-0">Home</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="galleryfit" class="container">
+        <div class="galleryImage">
+            <!-- <h1 class="text-danger">Hello World!</h1> -->
+            <a href="images/1.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/1.jpg"alt=""></a>
+                <a href="images/2.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/2.jpg"alt=""></a>
+                <a href="images/3.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/3.jpg"alt=""></a>
+                <a href="images/4.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/4.jpg"alt=""></a>
+                <a href="images/5.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/5.jpg"alt=""></a>
+                <a href="images/6.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/6.jpg"alt=""></a>
+                <a href="images/7.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/7.jpg"alt=""></a>
+                <a href="images/8.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/8.jpg"alt=""></a>
+                <a href="images/9.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/9.jpg"alt=""></a>
+                <a href="images/10.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/10.jpg"alt=""></a>
+                <a href="images/11.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/11.jpg"alt=""></a>
+                <a href="images/12.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/12.jpg"alt=""></a>
+                <a href="images/13.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/13.jpg"alt=""></a>
+                <a href="images/14.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/14.jpg"alt=""></a>
+                <a href="images/15.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/15.jpg"alt=""></a>
+                <a href="images/16.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/16.jpg"alt=""></a>
+                <a href="images/17.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/17.jpg"alt=""></a>
+                <a href="images/18.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/18.jpg"alt=""></a>
+                <a href="images/19.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/19.jpg"alt=""></a>
+                <a href="images/20.jpg"data-lightbox="Models" data-title="BangladeshPicture"><img src="images/20.jpg"alt=""></a>
+   
+        </div>
+    </div>
+
+
+
+    <script src="lightbox-plus-jquery.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+
+</body>
+</html>
