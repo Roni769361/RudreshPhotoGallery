@@ -124,3 +124,84 @@ body{
     /* position:fixed */
     /* position-absolute bottom-15 end-0 position-fixed */
 }
+#marriage{
+    margin-top: 30px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+
+.marriageImage{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+
+}
+
+.marriageImage img{
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100%;
+    /* height: 100px; */
+    transition: 2s;
+
+
+
+}
+.marriageImage img:hover{
+    transform: scale(1.1);
+
+}
+
+#other{
+    margin-top: 30px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+
+.otherImage{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+
+}
+.otherImage img{
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100%;
+    /* height: 100px; */
+    transition: 2s;
+
+
+
+}
+.otherImage img:hover{
+    transform: scale(1.1);
+
+
+
+
+}
