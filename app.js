@@ -48,7 +48,7 @@ function sinin(){
     const email = document.getElementById("form2Example1").value;
     const pass = document.getElementById("form2Example2").value;
 
-    if(email == "" && pass == ""){
+    if(email == "Rudresh" && pass == "769361"){
         document.getElementById("HomeText").style.display = 'block';
         document.getElementById("loging").style.display = 'none';
 
